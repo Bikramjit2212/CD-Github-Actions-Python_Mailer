@@ -18,7 +18,7 @@ jobs:
             - name: "Install Dependencies"
               run: |
                 python -m pip install --upgrade pip
-                pip install smtplib email
+                
 
             - name: "Send Email executing Python Script"
               run: python script.py
